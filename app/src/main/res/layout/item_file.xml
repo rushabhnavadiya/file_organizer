@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/mLLRootFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="?android:attr/selectableItemBackground">
+        <ImageView
+            android:id="@+id/mImgFile"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:padding="10dp"
+            android:adjustViewBounds="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic__ds" />
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/mTxtFileName"
+                android:background="@drawable/ripple_effect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semi_bold"
+                android:text="Web Design"
+                android:gravity="start"
+                android:singleLine="true"
+                android:ems="20"
+                android:paddingRight="15dp"
+                android:textColor="@color/text_color"
+                android:textSize="15dp" />
+            <TextView
+                android:layout_marginTop="3dp"
+                android:id="@+id/mTxtFileSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_rg"
+                android:singleLine="true"
+                android:gravity="start"
+                android:text="200 MB"
+                android:textColor="@color/sub_text_color"
+                android:textSize="15dp" />
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/mImgMenuFile"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:scaleType="fitCenter"
+            android:paddingTop="22dp"
+            android:paddingBottom="22dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:adjustViewBounds="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_three_dots_vertical"
+            app:tint="@color/text_color" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/sub_text_color"
+        android:alpha="0.5"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"/>
+
+</LinearLayout>

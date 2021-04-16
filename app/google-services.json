@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "404449149572",
+    "project_id": "file-organizer-9442",
+    "storage_bucket": "file-organizer-9442.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:404449149572:android:7c34c4615d3847c7c278d1",
+        "android_client_info": {
+          "package_name": "com.manthanvanani.fileorganizer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "404449149572-8vk6eghk7fn5jih6mkvu7rq7a614u9lu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRSFhcD2j_WJ8erv7nfI9Tul4VL4N8XPI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "404449149572-8vk6eghk7fn5jih6mkvu7rq7a614u9lu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">File Organizer</string>
+    <string name="internal_storage">Internal Storage</string>
+    <string name="no_file_available">No Application Available to open this file</string>
+</resources>
